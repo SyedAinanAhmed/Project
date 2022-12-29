@@ -1,0 +1,211 @@
+body {
+    background-color: #2c243c;
+}
+
+.main_div {
+    width: 900px;
+    height: 650px;
+    background-color: #2c243c;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-family: arial;
+    font-weight: lighter;
+    color: white;
+    padding-top: 30px;
+}
+
+#txt1::before {
+    content: "\a";
+    white-space: pre;
+}
+
+p {
+    font-family: arial;
+    font-style: italic;
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+
+.fir_div {
+    border: 1px solid whitesmoke;
+    width: 250px;
+    height: 220px;
+    border-radius: 5%;
+}
+
+.img1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.fir_div:hover,
+.sec_div:hover,
+.thi_div:hover {
+    box-shadow: inset 0 -3em 3em rgba(206, 21, 21, 0.1), 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(29, 240, 255, 0.425);
+    ;
+    transition: 0.3s;
+}
+
+h2 {
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+    margin-top: -10px;
+    color: white;
+}
+
+.para1,
+.para2,
+.para3 {
+    font-size: 11px;
+    line-height: 17px;
+}
+
+.sec_div {
+    border: 1px solid whitesmoke;
+    width: 250px;
+    height: 220px;
+    margin-left: 30px;
+
+    border-radius: 5%;
+}
+
+.sec_div h2 {
+    margin-top: 2px;
+}
+
+.img2 {
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+}
+
+.thi_div {
+    border: 1px solid whitesmoke;
+    width: 250px;
+    margin-left: 30px;
+    height: 220px;
+    border-radius: 5%;
+}
+
+.img3 {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.thi_div h2 {
+    margin-top: 12px;
+}
+
+.footer_div {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    padding: 80px;
+    padding-left: 90px;
+    position: relative;  
+    height: fit-content;
+    background-color: #3E466D;
+}
+
+.intro {
+    width: 200px;
+    height: 400px;
+}
+
+.cyb_logo {
+    width: 100px;
+    height: 40px;
+    margin-left: 0px;
+}
+
+.cyber_para {
+    font-size: 15px;
+    line-height: 21px;
+    font-family: calibri;
+}
+
+.footer_div ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer_div ul {
+    list-style: none;
+}
+
+.footer_div li {
+    line-height: 28px;
+    font-family: calibri;
+}
+
+.pro,
+.digi,
+.indus,
+.comp {
+    padding-left: 40px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.enter {
+    font-family: arial;
+    font-weight: bold;
+}
+
+.products {
+    margin-left: 50px;
+}
+
+.services {
+    margin-left: 70px;
+}
+
+.industri {
+    margin-left: 80px;
+}
+
+.company {
+    margin-left: 50px;
+}
+
+.icons {
+    width: auto;
+    height: fit-content;
+    position: absolute;
+    margin-top: -89px;
+    margin-left: 140px;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.icons ul li {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    margin: 8px;
+}
+.personal{
+    width: 400px;
+    height: 100px;
+    margin-left: 400px;
+    position:relative;
+    margin-top: -90px;
+    border: 1px solid green;
+}
